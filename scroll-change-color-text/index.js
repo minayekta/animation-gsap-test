@@ -56,7 +56,7 @@ function Anim(){
             scroller:"#main",
             scrub:true,
             start:"top 0%",
-            end:"top -300%",
+            end:"top -200%",
         },
         color:"white",
         stagger:.4,
@@ -68,7 +68,7 @@ function Anim(){
             scroller:"#main",
             scrub:true,
             start:"top 35%",
-            end:"top 20%",
+            end:"top 0%",
         },
         opacity:0
     })
