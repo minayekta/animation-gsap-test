@@ -1,0 +1,15 @@
+html,
+body {
+    background:#e5e5e5 !important ;
+    position: relative;
+}
+.section-1{
+    height: 2500px;
+    margin: 0;
+    padding: 0;
+}
+video {
+    position: sticky;
+    top: 0%;
+    width: 100%;
+}

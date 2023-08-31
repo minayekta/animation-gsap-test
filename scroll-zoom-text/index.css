@@ -1,0 +1,21 @@
+  /*  */
+  html,
+body {
+    background:#e5e5e5 !important ;
+}
+  .section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.zoom-text {
+    font-size: 2rem;
+    cursor: pointer;
+    transform-origin: center center;
+}
+/*  */
+.section-6{
+  height: 200px;
+}

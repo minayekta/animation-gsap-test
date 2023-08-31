@@ -1,0 +1,50 @@
+
+html,
+body {
+    background:#e5e5e5 !important ;
+    height:100vh;
+}
+.section-1{
+  height: 500px;
+}
+.section-3 .img-shahrokh{
+    border-radius: 10px;
+}
+.section-3 .img-shahrokh:hover{
+    transform: scale(1.08);
+    transition: all 1s;
+}
+.reveal {
+    position: relative;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: 1.3s all ease;
+  }
+  
+  .reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .active.fade-left {
+    animation: fade-left 1.3s ease-in;
+  }
+  .active.fade-right {
+    animation: fade-right 1.3s ease-in;
+  }
+  .active.fade-left-2 {
+    animation: fade-left 2s ease-in;
+  }
+  .active.fade-right-2 {
+    animation: fade-right 2s ease-in;
+  }
+  .fadeout {
+    position: relative;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: 1.3s all ease;
+  }
+  .active.fadeOut {
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut;
+  }
