@@ -1,0 +1,27 @@
+
+body{
+    background: #f2f2f2;
+}
+.logo-container{
+margin: auto;
+width: 100%;
+height: 100vh;
+position: relative;
+}
+.logo-container .box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+.logo-container .character1,.character2,.character3,.character4,.character5{
+    font-size: 80px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b00;
+padding: 5px;
+}
